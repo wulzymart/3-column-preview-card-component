@@ -1,0 +1,81 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  line-height: 1.5;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  width: 70%;
+  margin: 20vh auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.flex-box {
+  display: flex;
+}
+.card {
+  padding: 50px 60px 50px 45px;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+.sedan button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+.suv button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+.luxury button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+  .flex-box {
+    flex-direction: column;
+  }
+}
